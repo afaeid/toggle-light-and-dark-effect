@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  background: #DADADA;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.on-off-cover{
+  width: 30px;
+  height: 15px;
+  background: #FFF;
+  border-radius: 15px;
+}
+.on-off-button{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #494949;
+  /* position: absolute; */
+  transition: 0.1s;
+}
+.on{
+  margin-left: 15px;
+}
+.dark{
+  background: #000;
+  color: #fff;
+}
