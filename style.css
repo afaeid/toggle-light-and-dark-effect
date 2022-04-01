@@ -27,14 +27,14 @@
   background: url(lightmode.png) no-repeat;
   background-size: 15px;
   background-position: center;
-  background-color: #AFAFAF;
+  background-color: #494949;
 }
 .on{
   margin-left: 15px;
    background: url(darkmode.png) no-repeat;
   background-size: 15px;
   background-position: center;
-  background-color: #AFAFAF;
+  background-color: #494949;
 
 }
 .dark{
