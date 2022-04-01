@@ -12,23 +12,26 @@
   justify-content: center;
 }
 .on-off-cover{
-  width: 30px;
-  height: 15px;
+  height: 20px;
+  width: 40px;
   background: #FFF;
   border-radius: 15px;
+  display: flex;
+  align-items: center;
 }
 .on-off-button{
-  width: 15px;
-  height: 15px;
+  height: 25px;
+  width: 25px;
   border-radius: 50%;
   /* background: #494949; */
   /* position: absolute; */
-  transition: 0.1s;
+  transition: 0.2s;
   background: url(lightmode.png) no-repeat;
   background-size: 15px;
   background-position: center;
   background-color: #494949;
 }
+
 .on{
   margin-left: 15px;
    background: url(darkmode.png) no-repeat;
@@ -44,10 +47,14 @@
 @media only screen and (max-width:400px){
   .on-off-cover{
     height: 20px;
-    width: 35px;
+    width: 40px;
   }
   .on-off-button{
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
   }
+  /* .on{
+    height: 25px;
+    width: 25px;
+  } */
 }
