@@ -21,12 +21,21 @@
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background: #494949;
+  /* background: #494949; */
   /* position: absolute; */
   transition: 0.1s;
+  background: url(lightmode.png) no-repeat;
+  background-size: 15px;
+  background-position: center;
+  background-color: #AFAFAF;
 }
 .on{
   margin-left: 15px;
+   background: url(darkmode.png) no-repeat;
+  background-size: 15px;
+  background-position: center;
+  background-color: #AFAFAF;
+
 }
 .dark{
   background: #000;
